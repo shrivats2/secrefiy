@@ -299,6 +299,36 @@ body {
   hyphens: auto;
 }
 
+@media only screen and (max-width: 750px) {
+  .main-title {
+    margin: 0;
+    font-family: 'Amita', cursive;
+    line-height: 2;
+    font-size: 4.041666666666667rem;
+    color: #ff0083;
+    hyphens: auto;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .selection{
+    background-color: inherit;
+    color: #b2005b;
+    border: none;
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width:650px)
+{
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+  }
+
 /* E R R O R ----- P A G E */
 .alert-icon {
   color: #b2005b;
